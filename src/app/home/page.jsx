@@ -17,14 +17,15 @@ export default function Home() {
       </div>
 
       <div>
-      <Carousel/>
+        <Carousel />
       </div>
 
       <div>
-      <Sponsor/>
+        <Sponsor />
       </div>
+      
       <div>
-      <FormJoin/>
+        <FormJoin />
       </div>
     </div>
   );

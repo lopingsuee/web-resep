@@ -4,7 +4,7 @@ import PulsatingButton from "../ui/pulsating-button";
 const Video = () => {
   return (
     <div className="relative w-full h-[95vh]">
-      <p className="font-dancing  pt-5 text-left text-5xl sm:text-6xl">
+      <p className="font-dancing  ml-9 pt-5 text-left text-5xl sm:text-6xl">
         DapurGandi
       </p>
       <div className=" flex flex-col items-center justify-center ">
@@ -12,7 +12,7 @@ const Video = () => {
         <div className="relative w-[95vw] h-[75vh] rounded-lg overflow-hidden shadow-lg">
           Responsif dengan persentase
           <Image
-            src="/cook.gif"
+            src="/1011(2).gif"
             alt="Deskripsi GIF"
             layout="fill"
             objectFit="cover"
@@ -33,6 +33,12 @@ const Video = () => {
                 className=" text-xl md:text-2xl bg-white text-black"
                 duration="0"
                 textAwal="info menu"
+                textAkhir="click disini"
+              />
+              <PulsatingButton
+                className=" text-xl md:text-2xl bg-white text-black"
+                duration="0"
+                textAwal="Cek resep"
                 textAkhir="click disini"
               />
             </div>

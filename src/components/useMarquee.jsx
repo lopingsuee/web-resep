@@ -12,31 +12,31 @@ const reviews = [
   {
     name: "Siti Aminah",
     username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    body: "Website ini benar-benar membantu saya dalam menyiapkan menu harian untuk keluarga. ",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
   {
     name: " Dewi Susanti",
     username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Sebagai ibu yang sibuk, saya sangat terbantu dengan resep-resep cepat dan praktis di sini.",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
   {
     name: " Fatimah Zahra",
     username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Saya senang bisa menemukan resep-resep masakan Indonesia yang otentik di sini.",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
   {
     name: " Rina Putri",
     username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Awalnya saya takut mencoba masakan baru, tapi dengan panduan yang jelas dan bahan-bahan yang mudah didapat.",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
   {
     name: " Yulianti Sari",
     username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Resep-resepnya sangat lengkap! Dari masakan rumahan yang sederhana sampai makanan spesial untuk acara keluarga. ",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
 ];

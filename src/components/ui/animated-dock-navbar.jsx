@@ -22,7 +22,7 @@ export default function AnimatedDockNavbar() {
       <div className="max-w-md mx-auto px-4">
         <ul className="flex justify-between items-center py-2">
           {navItems.map((item, index) => (
-            <li key={item.label} className="flex-1 text-white font-domaine">
+            <li key={item.label} className="flex-1 text-white font-lexend">
               <Link href={item.href} className="flex flex-col items-center">
                 <motion.div
                   className="relative p-2"
@@ -47,7 +47,7 @@ export default function AnimatedDockNavbar() {
                     className="relative z-10"
                     variants={{
                       rest: { y: 0, color: "#ffff" },
-                      hover: { y: -50, color: "#000", scale: 1.5, },
+                      hover: { y: -50, color: "#808080", scale: 1.5, },
                     }}
                     transition={{ type: "spring", stiffness: 300, damping: 20 }}
                   >
@@ -67,7 +67,7 @@ export default function AnimatedDockNavbar() {
               </Link>
             </li>
           ))}
-          <li className="flex-1 -mt-5">
+          {/* <li className="flex-1 -mt-5">
             <div href="/" className="flex flex-col items-center">
               <motion.div
                 className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg border-4 border-white"
@@ -84,7 +84,7 @@ export default function AnimatedDockNavbar() {
                 />
               </motion.div>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

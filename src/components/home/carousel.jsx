@@ -5,7 +5,7 @@ export default function Carousel() {
   return (
     <div className="bg-black w-full min-h-[80vh] flex justify-center items-center">
   <div className="flex flex-col justify-center items-center text-center">
-    <p className="text-white font-domaine text-5xl">MENEMANI IBU INDONESIA</p>      
+    <p className="text-white font-domaine text-5xl mb-3">Super Delicious</p>      
     <CarouselDemo />
   </div>
 </div>
