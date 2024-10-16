@@ -7,37 +7,37 @@ const reviews = [
     name: "Bu diah",
     username: "@jack",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
   {
-    name: "Jill",
+    name: "Siti Aminah",
     username: "@jill",
     body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
   {
-    name: "John",
+    name: " Dewi Susanti",
     username: "@john",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
   {
-    name: "Jane",
+    name: " Fatimah Zahra",
     username: "@jane",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
   {
-    name: "Jenny",
+    name: " Rina Putri",
     username: "@jenny",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
   {
-    name: "James",
+    name: " Yulianti Sari",
     username: "@james",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYeQLKC3QUYXaFxZLbDxM0fsH79hf91d_w&s",
   },
 ];
 
@@ -50,21 +50,21 @@ const ReviewCard = ({ img, name, username, body }) => {
       className={cn(
         "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-4",
         // light styles
-        "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
+        "border-gray-950/[.1] bg-black hover:bg-gray-800",
         // dark styles
-        "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
+        "dark:border-gray-50/[.1] dark:bg-red-50/[.10] dark:hover:bg-gray-50/[.15]"
       )}
     >
       <div className="flex flex-row items-center gap-2">
         <img className="rounded-full" width="32" height="32" alt="" src={img} />
         <div className="flex flex-col">
-          <figcaption className="text-sm font-medium dark:text-white">
+          <figcaption className="text-sm font-medium text-white">
             {name}
           </figcaption>
-          <p className="text-xs font-medium dark:text-white/40">{username}</p>
+          <p className="text-xs font-medium text-white/40">{username}</p>
         </div>
       </div>
-      <blockquote className="mt-2 text-sm">{body}</blockquote>
+      <blockquote className="mt-2 text-sm text-white">{body}</blockquote>
     </figure>
   );
 };

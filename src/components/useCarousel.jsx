@@ -13,42 +13,40 @@ const data = [
   {
     id: 1,
     makanan: "/makanan.jpg",
-    title: "Noteworthy technology acquisitions 2021",
-    description:
-      "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+    title: "Orek Tempe buncis",
   },
   {
     id: 2,
     makanan: "/makanan.jpg",
-    title: "Technology innovations in 2022",
+    title: "Orek Tempe buncis",
     description:
       "Here are the latest technology innovations that are changing the world in 2022.",
   },
   {
     id: 3,
     makanan: "/makanan.jpg",
-    title: "Top programming languages 2023",
+    title: "Orek Tempe buncis",
     description:
       "Discover the top programming languages that will dominate in 2023.",
   },
   {
     id: 4,
     makanan: "/makanan.jpg",
-    title: "Top programming languages 2023",
+    title: "Orek Tempe buncis",
     description:
       "Discover the top programming languages that will dominate in 2023.",
   },
   {
     id: 5,
     makanan: "/makanan.jpg",
-    title: "Top programming languages 2023",
+    title: "Orek Tempe buncis",
     description:
       "Discover the top programming languages that will dominate in 2023.",
   },
   {
     id: 6,
     makanan: "/makanan.jpg",
-    title: "Top programming languages 2023",
+    title: "Orek Tempe buncis",
     description:
       "Discover the top programming languages that will dominate in 2023.",
   },
