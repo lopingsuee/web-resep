@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PulsatingButton from "../ui/pulsating-button";
+import PulsatingButton from "../../ui/pulsating-button";
 
 const Video = () => {
   return (
@@ -8,7 +8,6 @@ const Video = () => {
         DapurGandi
       </p>
       <div className=" flex flex-col items-center justify-center ">
-        
         <div className="relative w-[95vw] h-[75vh] rounded-lg overflow-hidden shadow-lg">
           Responsif dengan persentase
           <Image
